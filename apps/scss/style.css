@@ -28,6 +28,7 @@ ul {
 
 img, svg {
   max-width: 100%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -256,7 +257,7 @@ button:hover {
   .form .cta button {
     height: 2.5rem;
     font-size: 1rem;
-    width: 8rem;
+    width: 10rem;
   }
 }
 
@@ -312,6 +313,9 @@ button:hover {
   font-size: 1em;
   text-align: left;
   gap: 1rem;
+}
+.col_2 .small-col .img-text img {
+  width: 20%;
 }
 .col_2 .small-col .img-text .blue {
   display: flex;
@@ -435,7 +439,7 @@ button:hover {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 50%, transparent 45%, rgba(0, 0, 0, 0.8)), url(images/bg-img.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 50%, transparent 45%, rgba(0, 0, 0, 0.8)), url(../../images/bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -669,4 +673,46 @@ button:hover {
   font-size: 1rem;
   color: #737373;
   margin-bottom: 1rem;
+}
+
+.login {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/login.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 3rem;
+}
+.login .login-container {
+  width: 600px;
+  padding: 60px 68px 40px;
+  background: rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.login .login-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login .login-container form .username, .login .login-container form .password {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.login .login-container form .username .user, .login .login-container form .password .user {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #333;
+  padding: 0 16px;
+}
+.login .login-container form .username small, .login .login-container form .password small {
+  color: #e87c03;
+  font-size: 14px;
+}
+.login .login-container form .non {
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */
