@@ -1,0 +1,31 @@
+red color --#e50914;
+
+signin btn -- #e50914
+
+input bg --#333;
+
+pswd alert --#e87c03;
+rgba(0,0,0,.75)
+
+sign-in color -- #737373
+footer-links --#737373;
+
+fonts --Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif
+
+accordion bg -- #303030;
+
+get started --hover:#f40612
+normal color -- #B00710
+border-bottoms --8px solid #222
+
+#eaeaea
+
+linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8)); --header
+
+h1 {
+    
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
