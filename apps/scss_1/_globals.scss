@@ -19,7 +19,6 @@ body {
     min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
-    position: relative;
 
     @include breakpoint-down (medium){
         width: 100%;
