@@ -1,10 +1,29 @@
 .footer {
     background: rgba(0,0,0,.75);
     height: 100%;
+
+    @include breakpoint-down(medium){
+        padding-inline: 1.25rem;
+    }
+
+    @include breakpoint-down(small){
+        width: 100%;
+        padding-top: 1.25rem;
+    }
+
     .container {
         width: 1140px;
         padding: 1rem 0;
         margin: 0 auto;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
+        @include breakpoint-down(small){
+            width: 100%;
+            padding: 1.25rem;
+        }
+
 
         .first {
             font-size: 1rem;
@@ -12,7 +31,7 @@
 
         a {
             color: #737373;
-            font-size: 13px;
+            font-size: 0.8125rem;
             transition: all 1s ease-in-out;
 
             &:hover {
@@ -27,12 +46,43 @@
             grid-column-gap: 0px;
             grid-row-gap: 0px;
             margin-top: 1.5rem;
+
+            @include breakpoint-down(small){
+                
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 1.25rem;
+                grid-row-gap: 1.25rem;
+            }
         }
             
-        .div1 { grid-area: 1 / 1 / 2 / 2; }
-        .div2 { grid-area: 1 / 2 / 2 / 3; }
-        .div3 { grid-area: 1 / 3 / 2 / 4; }
-        .div4 { grid-area: 1 / 4 / 2 / 5; }
+        .div1 { 
+            grid-area: 1 / 1 / 2 / 2; 
+
+            @include breakpoint-down(small){
+                grid-area: 1 / 1 / 2 / 2;  
+            }
+        }
+        .div2 { 
+            grid-area: 1 / 2 / 2 / 3; 
+            @include breakpoint-down(small){
+                grid-area: 1 / 2 / 2 / 3; 
+            }
+        }
+        .div3 { 
+            grid-area: 1 / 3 / 2 / 4; 
+            @include breakpoint-down(small){
+                grid-area: 2 / 1 / 3 / 2; 
+            }
+        }
+        .div4 { 
+            grid-area: 1 / 4 / 2 / 5;
+            
+            @include breakpoint-down(small){
+                grid-area: 2 / 2 / 3 / 3; 
+            }
+        }
 
         .div1,.div2{
             display: flex;

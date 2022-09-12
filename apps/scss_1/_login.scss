@@ -2,6 +2,10 @@
     padding: 3rem;
     margin-bottom: 1.5rem;
 
+    @include breakpoint-down(small){
+        padding: 1.25rem;
+    }
+
     @include breakpoint-down (small){
         width: 100%;
     }
@@ -24,6 +28,10 @@
         background: rgba(0,0,0,.75);
         margin: 0 auto;
         border-radius: 4px;
+
+        @include breakpoint-down(small){
+            padding: 1.8rem 1.5rem;
+        }
 
         @include breakpoint-down (medium){
             width: 350px;
@@ -105,7 +113,7 @@
 
         .last {
             color: #8c8c8c;
-            font-size: 13px;
+            font-size: 0.8125rem;
 
             a{
                 color: blue;

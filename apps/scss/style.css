@@ -67,7 +67,7 @@ span {
 }
 .container_col {
   flex-direction: column;
-  margin-top: 120px;
+  margin-top: 7.5rem;
   justify-content: center;
   align-items: center;
 }
