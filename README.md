@@ -22,7 +22,7 @@ This is a clone  of the netflix website. I used an API to get movie details and 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for all interactive elements on the page
+- See hover states for all interactive elements on the pages
 
 ### Screenshots
 
