@@ -2,7 +2,7 @@
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./images/desktop-design.jpg)
 
-This is a clone  of the netflix website.
+This is a clone  of the netflix website. I used an API to get movie details and also one can log in.
 
 ## Table of contents
 
