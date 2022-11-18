@@ -48,7 +48,7 @@ Users should be able to:
 
 The designs were created to the following widths:
 
-- Mobile: 375px
+- Mobile: 400px
 - Desktop: 1140px
 
 ## Author
